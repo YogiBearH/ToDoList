@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 export const TodoForm = ({addTodo}) => {
     const [val, setVal] = useState('');
-
+    
     const handleSubmit = e => {
         e.preventDefault();
         if (val) {
@@ -19,7 +19,7 @@ export const TodoForm = ({addTodo}) => {
                 placeholder='Enter Task'
                 onChange={(e) => setVal(e.target.value)}
                 value={val}
-            />
+                />
             <button type="submit" className='todo-btn'>Add Task</button>
         </form>
     )

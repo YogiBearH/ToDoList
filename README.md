@@ -1,6 +1,18 @@
-# React + Vite
+# To-Do React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A to-do application that was bootstrapped with Vite. Add, edit, delete, and complete tasks.
+
+## Getting Started
+
+1. Clone this project locally.
+2. CD into the root folder
+3. Run `npm install` in the root folder to install dependencies.
+
+This command installs a package, and any packages that it depends on.
+
+1. Run 'npm run dev'
+Runs the app in the developement mode
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 Currently, two official plugins are available:
 
